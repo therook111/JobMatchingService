@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap" rel="stylesheet">
+    <title>Result!</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+            font-size: 24px;
+            color: #008080;
+        }
+
+        .dataframe {
+          border-collapse: collapse;
+          margin: 25px 0;
+          font-size: 0.9em;
+          font-family: 'Nunito', sans-serif;
+          min-width: 400px;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+          width: 80%;
+          margin: 0 auto;
+        }
+
+        .dataframe thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        .dataframe th, .dataframe td {
+            padding: 12px 15px;
+        }
+
+        .dataframe tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .dataframe tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        .dataframe tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 80%;
+            margin: 0 auto 50px;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .form-group {
+            flex: 1 1 200px;
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-family: 'Nunito', sans-serif;
+        }
+        input, select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            width: 100%;
+            box-sizing: border-box;
+            font-family: 'Nunito', sans-serif;
+        }
+        .form-actions {
+            flex: 1 1 100%;
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #009879;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: 'Nunito', sans-serif;
+        }
+        button:hover {
+            background-color: #007f65;
+        }
+        .salary-range {
+            display: flex;
+            gap: 10px;
+        }
+        .salary-range input {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Our top 20 recommended jobs for you </h1>
+
+    <form id="filtersForm">
+        <div id="cvid"></div>
+        <div class="form-group">
+            <label for="province">Province</label>
+            <select id="province" name="province">
+                <option value="">Select a province</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="district">District</label>
+            <select id="district" name="district">
+                <option value="">Select a district</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="salary_filter_mode">Salary Filter Mode</label>
+            <select id="salary_filter_mode" name="salary_filter_mode">
+                <option value="">None</option>
+                <option value="max">Maximum of</option>
+                <option value="min">Minimum of</option>
+                <option value="range">Range</option>
+            </select>
+        </div>
+
+        <div class="form-group" id="salary-container">
+            <label for="salary">Salary Threshold</label>
+            <input type="number" id="salary" name="salary" placeholder="Enter salary threshold">
+        </div>
+
+        <div class="form-actions">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+<div id="resultContainer">
+
+</div>
+<script>
+    const provinceSelect = document.getElementById("province");
+    const districtSelect = document.getElementById("district");
+    const salaryFilterMode = document.getElementById("salary_filter_mode");
+    const salaryContainer = document.getElementById("salary-container");
+
+    // Function to fetch all provinces
+    async function fetchProvinces() {
+        try {
+            const response = await fetch('http://localhost:8000/locations/provinces', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+            
+            if (!response.ok) {
+                throw new Error('Failed to fetch provinces');
+            }
+            
+            return await response.json();
+        } catch (error) {
+            console.error('Error fetching provinces:', error);
+            return [];
+        }
+    }
+
+    // Function to fetch districts for a selected province
+    async function fetchDistricts(provinceCode) {
+        try {
+            const response = await fetch(`http://localhost:8000/locations/districts/${provinceCode}`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+            
+            if (!response.ok) {
+                throw new Error('Failed to fetch districts');
+            }
+            
+            return await response.json();
+        } catch (error) {
+            console.error('Error fetching districts:', error);
+            return [];
+        }
+    }
+
+    // Update province select options
+    async function initializeProvinceSelect() {
+        provinceSelect.innerHTML = '<option value="">Loading provinces...</option>';
+        provinceSelect.disabled = true;
+        
+        const provinces = await fetchProvinces();
+        
+        provinceSelect.innerHTML = '<option value="">Select a province</option>';
+        provinces.forEach(province => {
+            const option = document.createElement("option");
+            option.value = province.code;
+            option.textContent = province.name;
+            provinceSelect.appendChild(option);
+        });
+        
+        provinceSelect.disabled = false;
+    }
+
+    // Update district select options
+    function updateDistrictOptions(districts) {
+        districtSelect.innerHTML = '<option value="">Select a district</option>';
+        
+        districts.forEach(district => {
+            const option = document.createElement("option");
+            option.value = district.code;
+            option.textContent = district.name;
+            districtSelect.appendChild(option);
+        });
+    }
+
+    // Initialize provinces when page loads
+    document.addEventListener('DOMContentLoaded', initializeProvinceSelect);
+
+    // Event listener for province selection
+    provinceSelect.addEventListener("change", async () => {
+        const selectedProvince = provinceSelect.value;
+        
+        if (selectedProvince) {
+            districtSelect.innerHTML = '<option value="">Loading districts...</option>';
+            districtSelect.disabled = true;
+            
+            const districts = await fetchDistricts(selectedProvince);
+            districtSelect.disabled = false;
+            updateDistrictOptions(districts);
+        } else {
+            districtSelect.innerHTML = '<option value="">Select a district</option>';
+            districtSelect.disabled = true;
+        }
+    });
+
+    salaryFilterMode.addEventListener("change", () => {
+        if (salaryFilterMode.value === "range") {
+            salaryContainer.innerHTML = `
+                <label>Salary Range</label>
+                <div class="salary-range">
+                    <input type="number" id="salary_min" name="salary_min" placeholder="Minimum" required>
+                    <input type="number" id="salary_max" name="salary_max" placeholder="Maximum" required>
+                </div>
+            `;
+        } else if (salaryFilterMode.value === "") {
+            salaryContainer.innerHTML = "";
+        } else {
+            salaryContainer.innerHTML = `
+                <label for="salary">Salary Threshold</label>
+                <input type="number" id="salary" name="salary" placeholder="Enter salary threshold" required>
+            `;
+        }
+    });
+
+    const form = document.getElementById('filtersForm');
+
+    form.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        let requestData = {
+            cv_id: document.getElementById("cv_id").value,
+            province: null,
+            district: null,
+            filter_salary_mode: null,
+            salary: null,
+            salary_min: null,
+            salary_max: null
+        };
+
+        // Update with any non-empty values
+        const province = provinceSelect.value;
+        if (province) requestData.province = province;
+
+        const district = districtSelect.value;
+        if (district) requestData.district = district;
+
+        const salaryFilterMode = document.getElementById("salary_filter_mode");
+        if (salaryFilterMode.value) requestData.filter_salary_mode = salaryFilterMode.value;
+
+        if (salaryFilterMode.value === "range") {
+            requestData.salary_min = parseInt(document.getElementById("salary_min").value);
+            requestData.salary_max = parseInt(document.getElementById("salary_max").value);
+        } else {
+            requestData.salary = parseInt(document.getElementById("salary").value);
+        }
+
+        fetch('http://localhost:8000/filtering/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(requestData)
+        })
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('resultContainer').innerHTML = html;
+
+            const cvInput = document.getElementById('cv_id');
+            if (cvInput) {
+                document.getElementById('cvid').innerHTML = cvInput.outerHTML;
+            }
+        })
+        .catch(error => {
+            console.error('Error submitting request:', error);
+        });
+    });
+</script>
+</body>
+</html>

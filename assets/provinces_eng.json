@@ -1,0 +1,3082 @@
+{
+    "Can Tho City": {
+        "92": [
+            {
+                "District": "Ninh Kieu District",
+                "District code": 916
+            },
+            {
+                "District": "O Mon district",
+                "District code": 917
+            },
+            {
+                "District": "Binh Thuy District",
+                "District code": 918
+            },
+            {
+                "District": "Cai Rang District",
+                "District code": 919
+            },
+            {
+                "District": "Thot Not district",
+                "District code": 923
+            },
+            {
+                "District": "Vinh Thanh district",
+                "District code": 924
+            },
+            {
+                "District": "Red Chess district",
+                "District code": 925
+            },
+            {
+                "District": "Phong Dien district",
+                "District code": 926
+            },
+            {
+                "District": "Thoi Lai district",
+                "District code": 927
+            }
+        ]
+    },
+    "Hanoi City": {
+        "1": [
+            {
+                "District": "Ba Dinh District",
+                "District code": 1
+            },
+            {
+                "District": "Hoan Kiem District",
+                "District code": 2
+            },
+            {
+                "District": "Tay Ho District",
+                "District code": 3
+            },
+            {
+                "District": "Long Bien District",
+                "District code": 4
+            },
+            {
+                "District": "Cau Giay district",
+                "District code": 5
+            },
+            {
+                "District": "Dong Da District",
+                "District code": 6
+            },
+            {
+                "District": "Hai Ba Trung District",
+                "District code": 7
+            },
+            {
+                "District": "Hoang Mai District",
+                "District code": 8
+            },
+            {
+                "District": "Thanh Xuan District",
+                "District code": 9
+            },
+            {
+                "District": "Soc Son district",
+                "District code": 16
+            },
+            {
+                "District": "Dong Anh district",
+                "District code": 17
+            },
+            {
+                "District": "Gia Lam district",
+                "District code": 18
+            },
+            {
+                "District": "Nam Tu Liem District",
+                "District code": 19
+            },
+            {
+                "District": "Thanh Tri district",
+                "District code": 20
+            },
+            {
+                "District": "Bac Tu Liem District",
+                "District code": 21
+            },
+            {
+                "District": "Me Linh district",
+                "District code": 250
+            },
+            {
+                "District": "Ha Dong District",
+                "District code": 268
+            },
+            {
+                "District": "Son Tay Town",
+                "District code": 269
+            },
+            {
+                "District": "Ba Vi district",
+                "District code": 271
+            },
+            {
+                "District": "Phuc Tho district",
+                "District code": 272
+            },
+            {
+                "District": "Dan Phuong district",
+                "District code": 273
+            },
+            {
+                "District": "Hoai Duc district",
+                "District code": 274
+            },
+            {
+                "District": "Quoc Oai District",
+                "District code": 275
+            },
+            {
+                "District": "Thach That district",
+                "District code": 276
+            },
+            {
+                "District": "Chuong My district",
+                "District code": 277
+            },
+            {
+                "District": "Thanh Oai district",
+                "District code": 278
+            },
+            {
+                "District": "Thuong Tin district",
+                "District code": 279
+            },
+            {
+                "District": "Phu Xuyen district",
+                "District code": 280
+            },
+            {
+                "District": "Ung Hoa district",
+                "District code": 281
+            },
+            {
+                "District": "My Duc district",
+                "District code": 282
+            }
+        ]
+    },
+    "Hai Phong City": {
+        "31": [
+            {
+                "District": "Hong Bang District",
+                "District code": 303
+            },
+            {
+                "District": "Ngo Quyen District",
+                "District code": 304
+            },
+            {
+                "District": "Le Chan District",
+                "District code": 305
+            },
+            {
+                "District": "Hai An District",
+                "District code": 306
+            },
+            {
+                "District": "Kien An District",
+                "District code": 307
+            },
+            {
+                "District": "Do Son District",
+                "District code": 308
+            },
+            {
+                "District": "Duong Kinh District",
+                "District code": 309
+            },
+            {
+                "District": "Thuy Nguyen district",
+                "District code": 311
+            },
+            {
+                "District": "An Duong district",
+                "District code": 312
+            },
+            {
+                "District": "An Lao district",
+                "District code": 313
+            },
+            {
+                "District": "Kien Thuy district",
+                "District code": 314
+            },
+            {
+                "District": "Tien Lang district",
+                "District code": 315
+            },
+            {
+                "District": "Vinh Bao district",
+                "District code": 316
+            },
+            {
+                "District": "Cat Hai district",
+                "District code": 317
+            },
+            {
+                "District": "Bach Long Vi district",
+                "District code": 318
+            }
+        ]
+    },
+    "Ho Chi Minh City": {
+        "79": [
+            {
+                "District": "District 1",
+                "District code": 760
+            },
+            {
+                "District": "District 12",
+                "District code": 761
+            },
+            {
+                "District": "Thu Duc District",
+                "District code": 762
+            },
+            {
+                "District": "District 9",
+                "District code": 763
+            },
+            {
+                "District": "Go Vap District",
+                "District code": 764
+            },
+            {
+                "District": "Binh Thanh District",
+                "District code": 765
+            },
+            {
+                "District": "Tan Binh District",
+                "District code": 766
+            },
+            {
+                "District": "Tan Phu District",
+                "District code": 767
+            },
+            {
+                "District": "Phu Nhuan District",
+                "District code": 768
+            },
+            {
+                "District": "District 2",
+                "District code": 769
+            },
+            {
+                "District": "District 3",
+                "District code": 770
+            },
+            {
+                "District": "District 10",
+                "District code": 771
+            },
+            {
+                "District": "District 11",
+                "District code": 772
+            },
+            {
+                "District": "District 4",
+                "District code": 773
+            },
+            {
+                "District": "District 5",
+                "District code": 774
+            },
+            {
+                "District": "District 6",
+                "District code": 775
+            },
+            {
+                "District": "District 8",
+                "District code": 776
+            },
+            {
+                "District": "Binh Tan District",
+                "District code": 777
+            },
+            {
+                "District": "District 7",
+                "District code": 778
+            },
+            {
+                "District": "Cu Chi district",
+                "District code": 783
+            },
+            {
+                "District": "Hoc Mon district",
+                "District code": 784
+            },
+            {
+                "District": "Binh Chanh district",
+                "District code": 785
+            },
+            {
+                "District": "Nha Be district",
+                "District code": 786
+            },
+            {
+                "District": "Can Gio district",
+                "District code": 787
+            }
+        ]
+    },
+    "Da Nang City": {
+        "48": [
+            {
+                "District": "Lien Chieu District",
+                "District code": 490
+            },
+            {
+                "District": "Thanh Khe District",
+                "District code": 491
+            },
+            {
+                "District": "Hai Chau District",
+                "District code": 492
+            },
+            {
+                "District": "Son Tra District",
+                "District code": 493
+            },
+            {
+                "District": "Ngu Hanh Son District",
+                "District code": 494
+            },
+            {
+                "District": "Cam Le district",
+                "District code": 495
+            },
+            {
+                "District": "Hoa Vang district",
+                "District code": 497
+            },
+            {
+                "District": "Hoang Sa district",
+                "District code": 498
+            }
+        ]
+    },
+    "An Giang province": {
+        "89": [
+            {
+                "District": "Long Xuyen City",
+                "District code": 883
+            },
+            {
+                "District": "Chau Doc city",
+                "District code": 884
+            },
+            {
+                "District": "An Phu district",
+                "District code": 886
+            },
+            {
+                "District": "Tan Chau Town",
+                "District code": 887
+            },
+            {
+                "District": "Phu Tan district",
+                "District code": 888
+            },
+            {
+                "District": "Chau Phu district",
+                "District code": 889
+            },
+            {
+                "District": "Tinh Bien district",
+                "District code": 890
+            },
+            {
+                "District": "Tri Ton district",
+                "District code": 891
+            },
+            {
+                "District": "Chau Thanh district",
+                "District code": 892
+            },
+            {
+                "District": "Cho Moi district",
+                "District code": 893
+            },
+            {
+                "District": "Thoai Son district",
+                "District code": 894
+            }
+        ]
+    },
+    "Ba Ria - Vung Tau Province": {
+        "77": [
+            {
+                "District": "Vung Tau City",
+                "District code": 747
+            },
+            {
+                "District": "Ba Ria City",
+                "District code": 748
+            },
+            {
+                "District": "Chau Duc district",
+                "District code": 750
+            },
+            {
+                "District": "Xuyen Moc district",
+                "District code": 751
+            },
+            {
+                "District": "Long Dien district",
+                "District code": 752
+            },
+            {
+                "District": "Dat Do district",
+                "District code": 753
+            },
+            {
+                "District": "Phu My Town",
+                "District code": 754
+            },
+            {
+                "District": "Con Dao district",
+                "District code": 755
+            }
+        ]
+    },
+    "Binh Duong province": {
+        "74": [
+            {
+                "District": "Thu Dau Mot City",
+                "District code": 718
+            },
+            {
+                "District": "Bau Bang district",
+                "District code": 719
+            },
+            {
+                "District": "Dau Tieng district",
+                "District code": 720
+            },
+            {
+                "District": "Ben Cat Town",
+                "District code": 721
+            },
+            {
+                "District": "Phu Giao district",
+                "District code": 722
+            },
+            {
+                "District": "Tan Uyen town",
+                "District code": 723
+            },
+            {
+                "District": "Di An City",
+                "District code": 724
+            },
+            {
+                "District": "Thuan An City",
+                "District code": 725
+            },
+            {
+                "District": "Bac Tan Uyen district",
+                "District code": 726
+            }
+        ]
+    },
+    "Binh Phuoc province": {
+        "70": [
+            {
+                "District": "Phuoc Long town",
+                "District code": 688
+            },
+            {
+                "District": "Dong Xoai City",
+                "District code": 689
+            },
+            {
+                "District": "Binh Long Town",
+                "District code": 690
+            },
+            {
+                "District": "Bu Gia Map district",
+                "District code": 691
+            },
+            {
+                "District": "Loc Ninh district",
+                "District code": 692
+            },
+            {
+                "District": "Bu Dop district",
+                "District code": 693
+            },
+            {
+                "District": "Hon Quan district",
+                "District code": 694
+            },
+            {
+                "District": "Dong Phu district",
+                "District code": 695
+            },
+            {
+                "District": "Bu Dang district",
+                "District code": 696
+            },
+            {
+                "District": "Chon Thanh district",
+                "District code": 697
+            },
+            {
+                "District": "Phu Rieng district",
+                "District code": 698
+            }
+        ]
+    },
+    "Binh Thuan province": {
+        "60": [
+            {
+                "District": "Phan Thiet City",
+                "District code": 593
+            },
+            {
+                "District": "La Gi town",
+                "District code": 594
+            },
+            {
+                "District": "Tuy Phong district",
+                "District code": 595
+            },
+            {
+                "District": "Bac Binh district",
+                "District code": 596
+            },
+            {
+                "District": "Ham Thuan Bac district",
+                "District code": 597
+            },
+            {
+                "District": "Ham Thuan Nam district",
+                "District code": 598
+            },
+            {
+                "District": "Tanh Linh district",
+                "District code": 599
+            },
+            {
+                "District": "Duc Linh district",
+                "District code": 600
+            },
+            {
+                "District": "Ham Tan district",
+                "District code": 601
+            },
+            {
+                "District": "Phu Qui district",
+                "District code": 602
+            }
+        ]
+    },
+    "Binh Dinh province": {
+        "52": [
+            {
+                "District": "Quy Nhon City",
+                "District code": 540
+            },
+            {
+                "District": "An Lao district",
+                "District code": 542
+            },
+            {
+                "District": "Hoai Nhon town",
+                "District code": 543
+            },
+            {
+                "District": "Hoai An district",
+                "District code": 544
+            },
+            {
+                "District": "Phu My district",
+                "District code": 545
+            },
+            {
+                "District": "Vinh Thanh district",
+                "District code": 546
+            },
+            {
+                "District": "Tay Son district",
+                "District code": 547
+            },
+            {
+                "District": "Phu Cat district",
+                "District code": 548
+            },
+            {
+                "District": "An Nhon Town",
+                "District code": 549
+            },
+            {
+                "District": "Tuy Phuoc district",
+                "District code": 550
+            },
+            {
+                "District": "Van Canh district",
+                "District code": 551
+            }
+        ]
+    },
+    "Bac Lieu province": {
+        "95": [
+            {
+                "District": "Bac Lieu City",
+                "District code": 954
+            },
+            {
+                "District": "Hong Dan district",
+                "District code": 956
+            },
+            {
+                "District": "Phuoc Long district",
+                "District code": 957
+            },
+            {
+                "District": "Vinh Loi district",
+                "District code": 958
+            },
+            {
+                "District": "Gia Rai town",
+                "District code": 959
+            },
+            {
+                "District": "Dong Hai district",
+                "District code": 960
+            },
+            {
+                "District": "Hoa Binh district",
+                "District code": 961
+            }
+        ]
+    },
+    "Bac Giang province": {
+        "24": [
+            {
+                "District": "Bac Giang City",
+                "District code": 213
+            },
+            {
+                "District": "Yen The district",
+                "District code": 215
+            },
+            {
+                "District": "Tan Yen district",
+                "District code": 216
+            },
+            {
+                "District": "Lang Giang district",
+                "District code": 217
+            },
+            {
+                "District": "Luc Nam district",
+                "District code": 218
+            },
+            {
+                "District": "Luc Ngan district",
+                "District code": 219
+            },
+            {
+                "District": "Son Dong district",
+                "District code": 220
+            },
+            {
+                "District": "Yen Dung district",
+                "District code": 221
+            },
+            {
+                "District": "Viet Yen district",
+                "District code": 222
+            },
+            {
+                "District": "Hiep Hoa district",
+                "District code": 223
+            }
+        ]
+    },
+    "Bac Kan province": {
+        "6": [
+            {
+                "District": "Bac Kan City",
+                "District code": 58
+            },
+            {
+                "District": "Pac Nam district",
+                "District code": 60
+            },
+            {
+                "District": "Ba Be district",
+                "District code": 61
+            },
+            {
+                "District": "Ngan Son district",
+                "District code": 62
+            },
+            {
+                "District": "Bach Thong district",
+                "District code": 63
+            },
+            {
+                "District": "Cho Don district",
+                "District code": 64
+            },
+            {
+                "District": "Cho Moi district",
+                "District code": 65
+            },
+            {
+                "District": "Na Ri district",
+                "District code": 66
+            }
+        ]
+    },
+    "Bac Ninh province": {
+        "27": [
+            {
+                "District": "Bac Ninh City",
+                "District code": 256
+            },
+            {
+                "District": "Yen Phong district",
+                "District code": 258
+            },
+            {
+                "District": "Que Vo district",
+                "District code": 259
+            },
+            {
+                "District": "Tien Du district",
+                "District code": 260
+            },
+            {
+                "District": "Tu Son town",
+                "District code": 261
+            },
+            {
+                "District": "Thuan Thanh district",
+                "District code": 262
+            },
+            {
+                "District": "Gia Binh district",
+                "District code": 263
+            },
+            {
+                "District": "Luong Tai district",
+                "District code": 264
+            }
+        ]
+    },
+    "Ben Tre Province": {
+        "83": [
+            {
+                "District": "Ben Tre City",
+                "District code": 829
+            },
+            {
+                "District": "Chau Thanh district",
+                "District code": 831
+            },
+            {
+                "District": "Cho Lach district",
+                "District code": 832
+            },
+            {
+                "District": "Mo Cay Nam district",
+                "District code": 833
+            },
+            {
+                "District": "Giong Trom district",
+                "District code": 834
+            },
+            {
+                "District": "Binh Dai district",
+                "District code": 835
+            },
+            {
+                "District": "Ba Tri district",
+                "District code": 836
+            },
+            {
+                "District": "Thanh Phu District",
+                "District code": 837
+            },
+            {
+                "District": "Mo Cay Bac district",
+                "District code": 838
+            }
+        ]
+    },
+    "Cao Bang Province": {
+        "4": [
+            {
+                "District": "Cao Bang City",
+                "District code": 40
+            },
+            {
+                "District": "Bao Lam district",
+                "District code": 42
+            },
+            {
+                "District": "Bao Lac district",
+                "District code": 43
+            },
+            {
+                "District": "Ha Quang district",
+                "District code": 45
+            },
+            {
+                "District": "Trung Khanh district",
+                "District code": 47
+            },
+            {
+                "District": "Ha Lang district",
+                "District code": 48
+            },
+            {
+                "District": "Quang Hoa district",
+                "District code": 49
+            },
+            {
+                "District": "Hoa An district",
+                "District code": 51
+            },
+            {
+                "District": "Nguyen Binh district",
+                "District code": 52
+            },
+            {
+                "District": "Thach An district",
+                "District code": 53
+            }
+        ]
+    },
+    "Ca Mau Province": {
+        "96": [
+            {
+                "District": "Ca Mau City",
+                "District code": 964
+            },
+            {
+                "District": "U Minh district",
+                "District code": 966
+            },
+            {
+                "District": "Thoi Binh district",
+                "District code": 967
+            },
+            {
+                "District": "Tran Van Thoi district",
+                "District code": 968
+            },
+            {
+                "District": "Cai Nuoc district",
+                "District code": 969
+            },
+            {
+                "District": "Dam Doi district",
+                "District code": 970
+            },
+            {
+                "District": "Nam Can district",
+                "District code": 971
+            },
+            {
+                "District": "Phu Tan district",
+                "District code": 972
+            },
+            {
+                "District": "Ngoc Hien district",
+                "District code": 973
+            }
+        ]
+    },
+    "Gia Lai province": {
+        "64": [
+            {
+                "District": "Pleiku City",
+                "District code": 622
+            },
+            {
+                "District": "An Khe town",
+                "District code": 623
+            },
+            {
+                "District": "Ayun Pa town",
+                "District code": 624
+            },
+            {
+                "District": "Kbang district",
+                "District code": 625
+            },
+            {
+                "District": "Dak Doa district",
+                "District code": 626
+            },
+            {
+                "District": "Chu Pah district",
+                "District code": 627
+            },
+            {
+                "District": "Ia Grai District",
+                "District code": 628
+            },
+            {
+                "District": "Mang Yang district",
+                "District code": 629
+            },
+            {
+                "District": "Kong Chro district",
+                "District code": 630
+            },
+            {
+                "District": "Duc Co district",
+                "District code": 631
+            },
+            {
+                "District": "Chu Prong district",
+                "District code": 632
+            },
+            {
+                "District": "Chu Se district",
+                "District code": 633
+            },
+            {
+                "District": "Dak Po district",
+                "District code": 634
+            },
+            {
+                "District": "Ia Pa district",
+                "District code": 635
+            },
+            {
+                "District": "Krong Pa district",
+                "District code": 637
+            },
+            {
+                "District": "Phu Thien district",
+                "District code": 638
+            },
+            {
+                "District": "Chu Puh district",
+                "District code": 639
+            }
+        ]
+    },
+    "Hoa Binh province": {
+        "17": [
+            {
+                "District": "Hoa Binh City",
+                "District code": 148
+            },
+            {
+                "District": "Da Bac district",
+                "District code": 150
+            },
+            {
+                "District": "Luong Son district",
+                "District code": 152
+            },
+            {
+                "District": "Kim Boi district",
+                "District code": 153
+            },
+            {
+                "District": "Cao Phong district",
+                "District code": 154
+            },
+            {
+                "District": "Tan Lac district",
+                "District code": 155
+            },
+            {
+                "District": "Mai Chau district",
+                "District code": 156
+            },
+            {
+                "District": "Lac Son district",
+                "District code": 157
+            },
+            {
+                "District": "Yen Thuy district",
+                "District code": 158
+            },
+            {
+                "District": "Lac Thuy district",
+                "District code": 159
+            }
+        ]
+    },
+    "Ha Giang province": {
+        "2": [
+            {
+                "District": "Ha Giang city",
+                "District code": 24
+            },
+            {
+                "District": "Dong Van district",
+                "District code": 26
+            },
+            {
+                "District": "Meo Vac district",
+                "District code": 27
+            },
+            {
+                "District": "Yen Minh district",
+                "District code": 28
+            },
+            {
+                "District": "Quan Ba district",
+                "District code": 29
+            },
+            {
+                "District": "Vi Xuyen district",
+                "District code": 30
+            },
+            {
+                "District": "Bac Me district",
+                "District code": 31
+            },
+            {
+                "District": "Hoang Su Phi district",
+                "District code": 32
+            },
+            {
+                "District": "Xin Man district",
+                "District code": 33
+            },
+            {
+                "District": "Bac Quang district",
+                "District code": 34
+            },
+            {
+                "District": "Quang Binh district",
+                "District code": 35
+            }
+        ]
+    },
+    "Ha Nam province": {
+        "35": [
+            {
+                "District": "Phu Ly city",
+                "District code": 347
+            },
+            {
+                "District": "Duy Tien town",
+                "District code": 349
+            },
+            {
+                "District": "Kim Bang district",
+                "District code": 350
+            },
+            {
+                "District": "Thanh Liem district",
+                "District code": 351
+            },
+            {
+                "District": "Binh Luc district",
+                "District code": 352
+            },
+            {
+                "District": "Ly Nhan district",
+                "District code": 353
+            }
+        ]
+    },
+    "Ha Tinh province": {
+        "42": [
+            {
+                "District": "Ha Tinh City",
+                "District code": 436
+            },
+            {
+                "District": "Hong Linh town",
+                "District code": 437
+            },
+            {
+                "District": "Huong Son district",
+                "District code": 439
+            },
+            {
+                "District": "Duc Tho district",
+                "District code": 440
+            },
+            {
+                "District": "Vu Quang district",
+                "District code": 441
+            },
+            {
+                "District": "Nghi Xuan district",
+                "District code": 442
+            },
+            {
+                "District": "Can Loc district",
+                "District code": 443
+            },
+            {
+                "District": "Huong Khe district",
+                "District code": 444
+            },
+            {
+                "District": "Thach Ha district",
+                "District code": 445
+            },
+            {
+                "District": "Cam Xuyen district",
+                "District code": 446
+            },
+            {
+                "District": "Ky Anh district",
+                "District code": 447
+            },
+            {
+                "District": "Loc Ha district",
+                "District code": 448
+            },
+            {
+                "District": "Ky Anh Town",
+                "District code": 449
+            }
+        ]
+    },
+    "Hung Yen province": {
+        "33": [
+            {
+                "District": "Hung Yen City",
+                "District code": 323
+            },
+            {
+                "District": "Van Lam district",
+                "District code": 325
+            },
+            {
+                "District": "Van Giang district",
+                "District code": 326
+            },
+            {
+                "District": "Yen My district",
+                "District code": 327
+            },
+            {
+                "District": "My Hao town",
+                "District code": 328
+            },
+            {
+                "District": "An Thi distric",
+                "District code": 329
+            },
+            {
+                "District": "Khoai Chau district",
+                "District code": 330
+            },
+            {
+                "District": "Kim Dong district",
+                "District code": 331
+            },
+            {
+                "District": "Tien Lu district",
+                "District code": 332
+            },
+            {
+                "District": "Phu Cu district",
+                "District code": 333
+            }
+        ]
+    },
+    "Hai Duong province": {
+        "30": [
+            {
+                "District": "Hai Duong City",
+                "District code": 288
+            },
+            {
+                "District": "Chi Linh City",
+                "District code": 290
+            },
+            {
+                "District": "Nam Sach district",
+                "District code": 291
+            },
+            {
+                "District": "Kinh Mon town",
+                "District code": 292
+            },
+            {
+                "District": "Kim Thanh district",
+                "District code": 293
+            },
+            {
+                "District": "Thanh Ha district",
+                "District code": 294
+            },
+            {
+                "District": "Cam Giang district",
+                "District code": 295
+            },
+            {
+                "District": "Binh Giang district",
+                "District code": 296
+            },
+            {
+                "District": "Gia Loc district",
+                "District code": 297
+            },
+            {
+                "District": "Tu Ky district",
+                "District code": 298
+            },
+            {
+                "District": "Ninh Giang district",
+                "District code": 299
+            },
+            {
+                "District": "Thanh Mien district",
+                "District code": 300
+            }
+        ]
+    },
+    "Hau Giang province": {
+        "93": [
+            {
+                "District": "Vi Thanh City",
+                "District code": 930
+            },
+            {
+                "District": "Nga Bay City",
+                "District code": 931
+            },
+            {
+                "District": "Chau Thanh district A",
+                "District code": 932
+            },
+            {
+                "District": "Chau Thanh district",
+                "District code": 933
+            },
+            {
+                "District": "Phung Hiep district",
+                "District code": 934
+            },
+            {
+                "District": "Vi Thuy district",
+                "District code": 935
+            },
+            {
+                "District": "Long My District",
+                "District code": 936
+            },
+            {
+                "District": "Long My Town",
+                "District code": 937
+            }
+        ]
+    },
+    "Khanh Hoa province": {
+        "56": [
+            {
+                "District": "Nha Trang City",
+                "District code": 568
+            },
+            {
+                "District": "Cam Ranh City",
+                "District code": 569
+            },
+            {
+                "District": "Cam Lam district",
+                "District code": 570
+            },
+            {
+                "District": "Van Ninh district",
+                "District code": 571
+            },
+            {
+                "District": "Ninh Hoa town",
+                "District code": 572
+            },
+            {
+                "District": "Khanh Vinh district",
+                "District code": 573
+            },
+            {
+                "District": "Dien Khanh district",
+                "District code": 574
+            },
+            {
+                "District": "Khanh Son district",
+                "District code": 575
+            },
+            {
+                "District": "Truong Sa district",
+                "District code": 576
+            }
+        ]
+    },
+    "Kien Giang province": {
+        "91": [
+            {
+                "District": "Rach Gia City",
+                "District code": 899
+            },
+            {
+                "District": "Ha Tien city",
+                "District code": 900
+            },
+            {
+                "District": "Kien Luong district",
+                "District code": 902
+            },
+            {
+                "District": "Hon Dat district",
+                "District code": 903
+            },
+            {
+                "District": "Tan Hiep district",
+                "District code": 904
+            },
+            {
+                "District": "Chau Thanh district",
+                "District code": 905
+            },
+            {
+                "District": "Giong Rieng district",
+                "District code": 906
+            },
+            {
+                "District": "Go Quo district",
+                "District code": 907
+            },
+            {
+                "District": "An Bien district",
+                "District code": 908
+            },
+            {
+                "District": "An Minh district",
+                "District code": 909
+            },
+            {
+                "District": "Vinh Thuan district",
+                "District code": 910
+            },
+            {
+                "District": "Phu Quoc City",
+                "District code": 911
+            },
+            {
+                "District": "Kien Hai district",
+                "District code": 912
+            },
+            {
+                "District": "U Minh Thuong district",
+                "District code": 913
+            },
+            {
+                "District": "Giang Thanh district",
+                "District code": 914
+            }
+        ]
+    },
+    "Kon Tum Province": {
+        "62": [
+            {
+                "District": "Kon Tum City",
+                "District code": 608
+            },
+            {
+                "District": "Dak Glei district",
+                "District code": 610
+            },
+            {
+                "District": "Ngoc Hoi district",
+                "District code": 611
+            },
+            {
+                "District": "Dak To district",
+                "District code": 612
+            },
+            {
+                "District": "Kon Plong district",
+                "District code": 613
+            },
+            {
+                "District": "Kon Ray district",
+                "District code": 614
+            },
+            {
+                "District": "Dak Ha district",
+                "District code": 615
+            },
+            {
+                "District": "Sa Thay district",
+                "District code": 616
+            },
+            {
+                "District": "Tu Mo Rong district",
+                "District code": 617
+            },
+            {
+                "District": "IA H 'Drai District",
+                "District code": 618
+            }
+        ]
+    },
+    "Lai Chau province": {
+        "12": [
+            {
+                "District": "Lai Chau City",
+                "District code": 105
+            },
+            {
+                "District": "Tam Duong district",
+                "District code": 106
+            },
+            {
+                "District": "Muong Te district",
+                "District code": 107
+            },
+            {
+                "District": "Sin Ho district",
+                "District code": 108
+            },
+            {
+                "District": "Phong Tho district",
+                "District code": 109
+            },
+            {
+                "District": "Than Uyen district",
+                "District code": 110
+            },
+            {
+                "District": "Tan Uyen district",
+                "District code": 111
+            },
+            {
+                "District": "Nam Nhu district",
+                "District code": 112
+            }
+        ]
+    },
+    "Long An province": {
+        "80": [
+            {
+                "District": "Tan An City",
+                "District code": 794
+            },
+            {
+                "District": "Kien Tuong Town",
+                "District code": 795
+            },
+            {
+                "District": "Tan Hung district",
+                "District code": 796
+            },
+            {
+                "District": "Vinh Hung district",
+                "District code": 797
+            },
+            {
+                "District": "Moc Hoa district",
+                "District code": 798
+            },
+            {
+                "District": "Tan Thanh district",
+                "District code": 799
+            },
+            {
+                "District": "Thanh Hoa district",
+                "District code": 800
+            },
+            {
+                "District": "Duc Hue district",
+                "District code": 801
+            },
+            {
+                "District": "Duc Hoa district",
+                "District code": 802
+            },
+            {
+                "District": "Ben Luc district",
+                "District code": 803
+            },
+            {
+                "District": "Thu Thua district",
+                "District code": 804
+            },
+            {
+                "District": "Tan Tru district",
+                "District code": 805
+            },
+            {
+                "District": "Can Duoc district",
+                "District code": 806
+            },
+            {
+                "District": "Can Giuoc district",
+                "District code": 807
+            },
+            {
+                "District": "Chau Thanh district",
+                "District code": 808
+            }
+        ]
+    },
+    "Lao Cai province": {
+        "10": [
+            {
+                "District": "Lao Cai City",
+                "District code": 80
+            },
+            {
+                "District": "Bat Xat district",
+                "District code": 82
+            },
+            {
+                "District": "Muong Khuong district",
+                "District code": 83
+            },
+            {
+                "District": "Si Ma Cai district",
+                "District code": 84
+            },
+            {
+                "District": "Bac Ha district",
+                "District code": 85
+            },
+            {
+                "District": "Bao Thang district",
+                "District code": 86
+            },
+            {
+                "District": "Bao Yen district",
+                "District code": 87
+            },
+            {
+                "District": "Sa Pa Town",
+                "District code": 88
+            },
+            {
+                "District": "Van Ban district",
+                "District code": 89
+            }
+        ]
+    },
+    "Lam Dong province": {
+        "68": [
+            {
+                "District": "Dalat City",
+                "District code": 672
+            },
+            {
+                "District": "Bao Loc City",
+                "District code": 673
+            },
+            {
+                "District": "Dam Rong district",
+                "District code": 674
+            },
+            {
+                "District": "Lac Duong district",
+                "District code": 675
+            },
+            {
+                "District": "Lam Ha district",
+                "District code": 676
+            },
+            {
+                "District": "Don Duong district",
+                "District code": 677
+            },
+            {
+                "District": "Duc Trong district",
+                "District code": 678
+            },
+            {
+                "District": "Di Linh district",
+                "District code": 679
+            },
+            {
+                "District": "Bao Lam district",
+                "District code": 680
+            },
+            {
+                "District": "Da Huoai District",
+                "District code": 681
+            },
+            {
+                "District": "Da Teh district",
+                "District code": 682
+            },
+            {
+                "District": "Cat Tien district",
+                "District code": 683
+            }
+        ]
+    },
+    "Lang Son province": {
+        "20": [
+            {
+                "District": "Lang Son City",
+                "District code": 178
+            },
+            {
+                "District": "Trang Dinh district",
+                "District code": 180
+            },
+            {
+                "District": "Binh Gia district",
+                "District code": 181
+            },
+            {
+                "District": "Van Lang district",
+                "District code": 182
+            },
+            {
+                "District": "Cao Loc district",
+                "District code": 183
+            },
+            {
+                "District": "Van Quan district",
+                "District code": 184
+            },
+            {
+                "District": "Bac Son district",
+                "District code": 185
+            },
+            {
+                "District": "Huu Lung district",
+                "District code": 186
+            },
+            {
+                "District": "Chi Lang district",
+                "District code": 187
+            },
+            {
+                "District": "Loc Binh district",
+                "District code": 188
+            },
+            {
+                "District": "Dinh Lap district",
+                "District code": 189
+            }
+        ]
+    },
+    "Nam Dinh province": {
+        "36": [
+            {
+                "District": "Nam Dinh City",
+                "District code": 356
+            },
+            {
+                "District": "My Loc district",
+                "District code": 358
+            },
+            {
+                "District": "Vu Ban district",
+                "District code": 359
+            },
+            {
+                "District": "Y Yen district",
+                "District code": 360
+            },
+            {
+                "District": "Nghia Hung district",
+                "District code": 361
+            },
+            {
+                "District": "Nam Truc district",
+                "District code": 362
+            },
+            {
+                "District": "Truc Ninh district",
+                "District code": 363
+            },
+            {
+                "District": "Xuan Truong district",
+                "District code": 364
+            },
+            {
+                "District": "Giao Thuy district",
+                "District code": 365
+            },
+            {
+                "District": "Hai Hau district",
+                "District code": 366
+            }
+        ]
+    },
+    "Nghe An province": {
+        "40": [
+            {
+                "District": "Vinh City",
+                "District code": 412
+            },
+            {
+                "District": "Cua Lo town",
+                "District code": 413
+            },
+            {
+                "District": "Thai Hoa Town",
+                "District code": 414
+            },
+            {
+                "District": "Que Phong district",
+                "District code": 415
+            },
+            {
+                "District": "Quy Chau district",
+                "District code": 416
+            },
+            {
+                "District": "Ky Son district",
+                "District code": 417
+            },
+            {
+                "District": "Tuong Duong district",
+                "District code": 418
+            },
+            {
+                "District": "Nghia Dan district",
+                "District code": 419
+            },
+            {
+                "District": "Quy Hop district",
+                "District code": 420
+            },
+            {
+                "District": "Quynh Luu district",
+                "District code": 421
+            },
+            {
+                "District": "Con Cuong district",
+                "District code": 422
+            },
+            {
+                "District": "Tan Ky district",
+                "District code": 423
+            },
+            {
+                "District": "Anh Son District",
+                "District code": 424
+            },
+            {
+                "District": "Dien Chau district",
+                "District code": 425
+            },
+            {
+                "District": "Yen Thanh district",
+                "District code": 426
+            },
+            {
+                "District": "Do Luong district",
+                "District code": 427
+            },
+            {
+                "District": "Thanh Chuong district",
+                "District code": 428
+            },
+            {
+                "District": "Nghi Loc district",
+                "District code": 429
+            },
+            {
+                "District": "Nam Dan district",
+                "District code": 430
+            },
+            {
+                "District": "Hung Nguyen district",
+                "District code": 431
+            },
+            {
+                "District": "Hoang Mai town",
+                "District code": 432
+            }
+        ]
+    },
+    "Ninh Binh province": {
+        "37": [
+            {
+                "District": "Ninh Binh City",
+                "District code": 369
+            },
+            {
+                "District": "Tam Diep city",
+                "District code": 370
+            },
+            {
+                "District": "Nho Quan district",
+                "District code": 372
+            },
+            {
+                "District": "Gia Vien district",
+                "District code": 373
+            },
+            {
+                "District": "Hoa Lu district",
+                "District code": 374
+            },
+            {
+                "District": "Yen Khanh district",
+                "District code": 375
+            },
+            {
+                "District": "Kim Son district",
+                "District code": 376
+            },
+            {
+                "District": "Yen Mo district",
+                "District code": 377
+            }
+        ]
+    },
+    "Ninh Thuan province": {
+        "58": [
+            {
+                "District": "Phan Rang-Thap Cham City",
+                "District code": 582
+            },
+            {
+                "District": "Charity district",
+                "District code": 584
+            },
+            {
+                "District": "Ninh Son district",
+                "District code": 585
+            },
+            {
+                "District": "Ninh Hai district",
+                "District code": 586
+            },
+            {
+                "District": "Ninh Phuoc district",
+                "District code": 587
+            },
+            {
+                "District": "Thuan Bac district",
+                "District code": 588
+            },
+            {
+                "District": "Thuan Nam district",
+                "District code": 589
+            }
+        ]
+    },
+    "Phu Tho province": {
+        "25": [
+            {
+                "District": "Viet Tri City",
+                "District code": 227
+            },
+            {
+                "District": "Phu Tho town",
+                "District code": 228
+            },
+            {
+                "District": "Doan Hung district",
+                "District code": 230
+            },
+            {
+                "District": "Ha Hoa district",
+                "District code": 231
+            },
+            {
+                "District": "Thanh Ba district",
+                "District code": 232
+            },
+            {
+                "District": "Phu Ninh district",
+                "District code": 233
+            },
+            {
+                "District": "Yen Lap district",
+                "District code": 234
+            },
+            {
+                "District": "Cam Khe district",
+                "District code": 235
+            },
+            {
+                "District": "Tam Nong district",
+                "District code": 236
+            },
+            {
+                "District": "Lam Thao district",
+                "District code": 237
+            },
+            {
+                "District": "Thanh Son district",
+                "District code": 238
+            },
+            {
+                "District": "Thanh Thuy district",
+                "District code": 239
+            },
+            {
+                "District": "Tan Son district",
+                "District code": 240
+            }
+        ]
+    },
+    "Phu Yen province": {
+        "54": [
+            {
+                "District": "Tuy Hoa City",
+                "District code": 555
+            },
+            {
+                "District": "Song Cau town",
+                "District code": 557
+            },
+            {
+                "District": "Dong Xuan district",
+                "District code": 558
+            },
+            {
+                "District": "Tuy An district",
+                "District code": 559
+            },
+            {
+                "District": "Son Hoa district",
+                "District code": 560
+            },
+            {
+                "District": "Song Hinh district",
+                "District code": 561
+            },
+            {
+                "District": "Tay Hoa district",
+                "District code": 562
+            },
+            {
+                "District": "Phu Hoa district",
+                "District code": 563
+            },
+            {
+                "District": "Dong Hoa town",
+                "District code": 564
+            }
+        ]
+    },
+    "Quang Binh province": {
+        "44": [
+            {
+                "District": "Dong Hoi city",
+                "District code": 450
+            },
+            {
+                "District": "Minh Hoa district",
+                "District code": 452
+            },
+            {
+                "District": "Tuyen Hoa district",
+                "District code": 453
+            },
+            {
+                "District": "Quang Trach district",
+                "District code": 454
+            },
+            {
+                "District": "Bo Trach district",
+                "District code": 455
+            },
+            {
+                "District": "Quang Ninh district",
+                "District code": 456
+            },
+            {
+                "District": "Le Thuy district",
+                "District code": 457
+            },
+            {
+                "District": "Ba Don town",
+                "District code": 458
+            }
+        ]
+    },
+    "Quang Nam province": {
+        "49": [
+            {
+                "District": "Tam Ky City",
+                "District code": 502
+            },
+            {
+                "District": "Hoi An City",
+                "District code": 503
+            },
+            {
+                "District": "Tay Giang district",
+                "District code": 504
+            },
+            {
+                "District": "Dong Giang district",
+                "District code": 505
+            },
+            {
+                "District": "Dai Loc district",
+                "District code": 506
+            },
+            {
+                "District": "Dien Ban town",
+                "District code": 507
+            },
+            {
+                "District": "Duy Xuyen District",
+                "District code": 508
+            },
+            {
+                "District": "Que Son district",
+                "District code": 509
+            },
+            {
+                "District": "Nam Giang district",
+                "District code": 510
+            },
+            {
+                "District": "Phuoc Son district",
+                "District code": 511
+            },
+            {
+                "District": "Hiep Duc district",
+                "District code": 512
+            },
+            {
+                "District": "Thang Binh district",
+                "District code": 513
+            },
+            {
+                "District": "Tien Phuoc district",
+                "District code": 514
+            },
+            {
+                "District": "Bac Tra My district",
+                "District code": 515
+            },
+            {
+                "District": "Nam Tra My district",
+                "District code": 516
+            },
+            {
+                "District": "Nui Thanh district",
+                "District code": 517
+            },
+            {
+                "District": "Phu Ninh district",
+                "District code": 518
+            },
+            {
+                "District": "Nong Son district",
+                "District code": 519
+            }
+        ]
+    },
+    "Quang Ngai province": {
+        "51": [
+            {
+                "District": "Quang Ngai City",
+                "District code": 522
+            },
+            {
+                "District": "Binh Son district",
+                "District code": 524
+            },
+            {
+                "District": "Tra Bong district",
+                "District code": 525
+            },
+            {
+                "District": "Son Tinh district",
+                "District code": 527
+            },
+            {
+                "District": "Tu Nghia district",
+                "District code": 528
+            },
+            {
+                "District": "Son Ha district",
+                "District code": 529
+            },
+            {
+                "District": "Son Tay district",
+                "District code": 530
+            },
+            {
+                "District": "Minh Long district",
+                "District code": 531
+            },
+            {
+                "District": "Nghia Hanh district",
+                "District code": 532
+            },
+            {
+                "District": "Mo Duc district",
+                "District code": 533
+            },
+            {
+                "District": "Duc Pho town",
+                "District code": 534
+            },
+            {
+                "District": "Ba To district",
+                "District code": 535
+            },
+            {
+                "District": "Ly Son district",
+                "District code": 536
+            }
+        ]
+    },
+    "Quang Ninh province": {
+        "22": [
+            {
+                "District": "Ha Long City",
+                "District code": 193
+            },
+            {
+                "District": "Mong Cai City",
+                "District code": 194
+            },
+            {
+                "District": "Cam Pha City",
+                "District code": 195
+            },
+            {
+                "District": "Uong Bi city",
+                "District code": 196
+            },
+            {
+                "District": "Binh Lieu district",
+                "District code": 198
+            },
+            {
+                "District": "Tien Yen district",
+                "District code": 199
+            },
+            {
+                "District": "Dam Ha district",
+                "District code": 200
+            },
+            {
+                "District": "Hai Ha district",
+                "District code": 201
+            },
+            {
+                "District": "Ba Che district",
+                "District code": 202
+            },
+            {
+                "District": "Van Don district",
+                "District code": 203
+            },
+            {
+                "District": "Dong Trieu Town",
+                "District code": 205
+            },
+            {
+                "District": "Quang Yen town",
+                "District code": 206
+            },
+            {
+                "District": "Co To district",
+                "District code": 207
+            }
+        ]
+    },
+    "Quang Tri province": {
+        "45": [
+            {
+                "District": "Dong Ha City",
+                "District code": 461
+            },
+            {
+                "District": "Quang Tri Town",
+                "District code": 462
+            },
+            {
+                "District": "Vinh Linh district",
+                "District code": 464
+            },
+            {
+                "District": "Huong Hoa district",
+                "District code": 465
+            },
+            {
+                "District": "Gio Linh district",
+                "District code": 466
+            },
+            {
+                "District": "Da Krong district",
+                "District code": 467
+            },
+            {
+                "District": "Cam Lo district",
+                "District code": 468
+            },
+            {
+                "District": "Trieu Phong district",
+                "District code": 469
+            },
+            {
+                "District": "Hai Lang district",
+                "District code": 470
+            },
+            {
+                "District": "Con Co district",
+                "District code": 471
+            }
+        ]
+    },
+    "Soc Trang province": {
+        "94": [
+            {
+                "District": "Soc Trang city",
+                "District code": 941
+            },
+            {
+                "District": "Chau Thanh district",
+                "District code": 942
+            },
+            {
+                "District": "Ke Sach district",
+                "District code": 943
+            },
+            {
+                "District": "My Tu district",
+                "District code": 944
+            },
+            {
+                "District": "Cu Lao Dung district",
+                "District code": 945
+            },
+            {
+                "District": "Long Phu district",
+                "District code": 946
+            },
+            {
+                "District": "My Xuyen district",
+                "District code": 947
+            },
+            {
+                "District": "Nga Nam town",
+                "District code": 948
+            },
+            {
+                "District": "Thanh Tri District",
+                "District code": 949
+            },
+            {
+                "District": "Vinh Chau town",
+                "District code": 950
+            },
+            {
+                "District": "Tran De district",
+                "District code": 951
+            }
+        ]
+    },
+    "Son La province": {
+        "14": [
+            {
+                "District": "Son La City",
+                "District code": 116
+            },
+            {
+                "District": "Quynh Nhai district",
+                "District code": 118
+            },
+            {
+                "District": "Thuan Chau district",
+                "District code": 119
+            },
+            {
+                "District": "Muong La district",
+                "District code": 120
+            },
+            {
+                "District": "Bac Yen district",
+                "District code": 121
+            },
+            {
+                "District": "Phu Yen district",
+                "District code": 122
+            },
+            {
+                "District": "Moc Chau District",
+                "District code": 123
+            },
+            {
+                "District": "Yen Chau district",
+                "District code": 124
+            },
+            {
+                "District": "Mai Son district",
+                "District code": 125
+            },
+            {
+                "District": "Song Ma district",
+                "District code": 126
+            },
+            {
+                "District": "Sop Cop district",
+                "District code": 127
+            },
+            {
+                "District": "Van Ho district",
+                "District code": 128
+            }
+        ]
+    },
+    "Thanh Hoa Province": {
+        "38": [
+            {
+                "District": "Thanh Hoa City",
+                "District code": 380
+            },
+            {
+                "District": "Bim Son town",
+                "District code": 381
+            },
+            {
+                "District": "Sam Son City",
+                "District code": 382
+            },
+            {
+                "District": "Muong Lat district",
+                "District code": 384
+            },
+            {
+                "District": "Quan Hoa district",
+                "District code": 385
+            },
+            {
+                "District": "Ba Thuoc district",
+                "District code": 386
+            },
+            {
+                "District": "Quan Son district",
+                "District code": 387
+            },
+            {
+                "District": "Lang Chanh district",
+                "District code": 388
+            },
+            {
+                "District": "Ngoc Lac district",
+                "District code": 389
+            },
+            {
+                "District": "Cam Thuy district",
+                "District code": 390
+            },
+            {
+                "District": "Thach Thanh district",
+                "District code": 391
+            },
+            {
+                "District": "Ha Trung district",
+                "District code": 392
+            },
+            {
+                "District": "Vinh Loc district",
+                "District code": 393
+            },
+            {
+                "District": "Yen Dinh district",
+                "District code": 394
+            },
+            {
+                "District": "Tho Xuan district",
+                "District code": 395
+            },
+            {
+                "District": "Thuong Xuan district",
+                "District code": 396
+            },
+            {
+                "District": "Trieu Son district",
+                "District code": 397
+            },
+            {
+                "District": "Thieu Hoa district",
+                "District code": 398
+            },
+            {
+                "District": "Hoang Hoa district",
+                "District code": 399
+            },
+            {
+                "District": "Hau Loc district",
+                "District code": 400
+            },
+            {
+                "District": "Nga Son district",
+                "District code": 401
+            },
+            {
+                "District": "Nhu Xuan district",
+                "District code": 402
+            },
+            {
+                "District": "District Nhu Thanh",
+                "District code": 403
+            },
+            {
+                "District": "Nong Cong district",
+                "District code": 404
+            },
+            {
+                "District": "Dong Son district",
+                "District code": 405
+            },
+            {
+                "District": "Quang Xuong district",
+                "District code": 406
+            },
+            {
+                "District": "Nghi Son town",
+                "District code": 407
+            }
+        ]
+    },
+    "Thai Binh province": {
+        "34": [
+            {
+                "District": "Thai Binh City",
+                "District code": 336
+            },
+            {
+                "District": "Quynh Phu district",
+                "District code": 338
+            },
+            {
+                "District": "Hung Ha district",
+                "District code": 339
+            },
+            {
+                "District": "Dong Hung district",
+                "District code": 340
+            },
+            {
+                "District": "Thai Thuy district",
+                "District code": 341
+            },
+            {
+                "District": "Tien Hai district",
+                "District code": 342
+            },
+            {
+                "District": "Kien Xuong district",
+                "District code": 343
+            },
+            {
+                "District": "Vu Thu district",
+                "District code": 344
+            }
+        ]
+    },
+    "Thai Nguyen province": {
+        "19": [
+            {
+                "District": "Thai Nguyen City",
+                "District code": 164
+            },
+            {
+                "District": "Song Cong city",
+                "District code": 165
+            },
+            {
+                "District": "Dinh Hoa district",
+                "District code": 167
+            },
+            {
+                "District": "Phu Luong district",
+                "District code": 168
+            },
+            {
+                "District": "Dong Hy district",
+                "District code": 169
+            },
+            {
+                "District": "Vo Nhai District",
+                "District code": 170
+            },
+            {
+                "District": "Dai Tu district",
+                "District code": 171
+            },
+            {
+                "District": "Pho Yen town",
+                "District code": 172
+            },
+            {
+                "District": "Phu Binh district",
+                "District code": 173
+            }
+        ]
+    },
+    "Thua Thien Hue province": {
+        "46": [
+            {
+                "District": "Hue City",
+                "District code": 474
+            },
+            {
+                "District": "Phong Dien district",
+                "District code": 476
+            },
+            {
+                "District": "Quang Dien district",
+                "District code": 477
+            },
+            {
+                "District": "Phu Vang district",
+                "District code": 478
+            },
+            {
+                "District": "Huong Thuy town",
+                "District code": 479
+            },
+            {
+                "District": "Huong Tra town",
+                "District code": 480
+            },
+            {
+                "District": "A Luoi district",
+                "District code": 481
+            },
+            {
+                "District": "Phu Loc district",
+                "District code": 482
+            },
+            {
+                "District": "Nam Dong district",
+                "District code": 483
+            }
+        ]
+    },
+    "Tien Giang province": {
+        "82": [
+            {
+                "District": "My Tho city",
+                "District code": 815
+            },
+            {
+                "District": "Go Cong Town",
+                "District code": 816
+            },
+            {
+                "District": "Cai Lay town",
+                "District code": 817
+            },
+            {
+                "District": "Tan Phuoc district",
+                "District code": 818
+            },
+            {
+                "District": "Cai Be district",
+                "District code": 819
+            },
+            {
+                "District": "Cai Lay district",
+                "District code": 820
+            },
+            {
+                "District": "Chau Thanh district",
+                "District code": 821
+            },
+            {
+                "District": "Cho Gao district",
+                "District code": 822
+            },
+            {
+                "District": "Go Cong Tay district",
+                "District code": 823
+            },
+            {
+                "District": "Go Cong Dong District",
+                "District code": 824
+            },
+            {
+                "District": "Tan Phu Dong district",
+                "District code": 825
+            }
+        ]
+    },
+    "Tra Vinh province": {
+        "84": [
+            {
+                "District": "Tra Vinh city",
+                "District code": 842
+            },
+            {
+                "District": "Cang Long district",
+                "District code": 844
+            },
+            {
+                "District": "Cau Ke district",
+                "District code": 845
+            },
+            {
+                "District": "Tieu Can district",
+                "District code": 846
+            },
+            {
+                "District": "Chau Thanh district",
+                "District code": 847
+            },
+            {
+                "District": "Cau Ngang district",
+                "District code": 848
+            },
+            {
+                "District": "Tra Cu district",
+                "District code": 849
+            },
+            {
+                "District": "Duyen Hai district",
+                "District code": 850
+            },
+            {
+                "District": "Duyen Hai town",
+                "District code": 851
+            }
+        ]
+    },
+    "Tuyen Quang province": {
+        "8": [
+            {
+                "District": "Tuyen Quang City",
+                "District code": 70
+            },
+            {
+                "District": "Lam Binh district",
+                "District code": 71
+            },
+            {
+                "District": "Na Hang district",
+                "District code": 72
+            },
+            {
+                "District": "Chiem Hoa district",
+                "District code": 73
+            },
+            {
+                "District": "Ham Yen district",
+                "District code": 74
+            },
+            {
+                "District": "Yen Son district",
+                "District code": 75
+            },
+            {
+                "District": "Son Duong district",
+                "District code": 76
+            }
+        ]
+    },
+    "Tay Ninh province": {
+        "72": [
+            {
+                "District": "Tay Ninh City",
+                "District code": 703
+            },
+            {
+                "District": "Tan Bien district",
+                "District code": 705
+            },
+            {
+                "District": "Tan Chau district",
+                "District code": 706
+            },
+            {
+                "District": "Duong Minh Chau district",
+                "District code": 707
+            },
+            {
+                "District": "Chau Thanh district",
+                "District code": 708
+            },
+            {
+                "District": "Hoa Thanh town",
+                "District code": 709
+            },
+            {
+                "District": "Go Dau district",
+                "District code": 710
+            },
+            {
+                "District": "Ben Cau district",
+                "District code": 711
+            },
+            {
+                "District": "Trang Bang Town",
+                "District code": 712
+            }
+        ]
+    },
+    "Vinh Long province": {
+        "86": [
+            {
+                "District": "Vinh Long City",
+                "District code": 855
+            },
+            {
+                "District": "Long Ho District",
+                "District code": 857
+            },
+            {
+                "District": "Mang Thit district",
+                "District code": 858
+            },
+            {
+                "District": "Vung Liem district",
+                "District code": 859
+            },
+            {
+                "District": "Tam Binh district",
+                "District code": 860
+            },
+            {
+                "District": "Binh Minh Town",
+                "District code": 861
+            },
+            {
+                "District": "Tra On district",
+                "District code": 862
+            },
+            {
+                "District": "Binh Tan district",
+                "District code": 863
+            }
+        ]
+    },
+    "Vinh Phuc province": {
+        "26": [
+            {
+                "District": "Vinh Yen city",
+                "District code": 243
+            },
+            {
+                "District": "Phuc Yen City",
+                "District code": 244
+            },
+            {
+                "District": "Lap Thach district",
+                "District code": 246
+            },
+            {
+                "District": "Tam Duong district",
+                "District code": 247
+            },
+            {
+                "District": "Tam Dao district",
+                "District code": 248
+            },
+            {
+                "District": "Binh Xuyen district",
+                "District code": 249
+            },
+            {
+                "District": "Yen Lac district",
+                "District code": 251
+            },
+            {
+                "District": "Vinh Tuong district",
+                "District code": 252
+            },
+            {
+                "District": "Song Lo district",
+                "District code": 253
+            }
+        ]
+    },
+    "Yen Bai province": {
+        "15": [
+            {
+                "District": "Yen Bai City",
+                "District code": 132
+            },
+            {
+                "District": "Nghia Lo town",
+                "District code": 133
+            },
+            {
+                "District": "Luc Yen district",
+                "District code": 135
+            },
+            {
+                "District": "Van Yen district",
+                "District code": 136
+            },
+            {
+                "District": "Mu Cang Chai district",
+                "District code": 137
+            },
+            {
+                "District": "Tran Yen district",
+                "District code": 138
+            },
+            {
+                "District": "Tram Tau district",
+                "District code": 139
+            },
+            {
+                "District": "Van Chan district",
+                "District code": 140
+            },
+            {
+                "District": "Yen Binh district",
+                "District code": 141
+            }
+        ]
+    },
+    "Dien Bien province": {
+        "11": [
+            {
+                "District": "Dien Bien Phu city",
+                "District code": 94
+            },
+            {
+                "District": "Muong Lay town",
+                "District code": 95
+            },
+            {
+                "District": "Muong Nhe district",
+                "District code": 96
+            },
+            {
+                "District": "Muong Cha district",
+                "District code": 97
+            },
+            {
+                "District": "Tua Chua district",
+                "District code": 98
+            },
+            {
+                "District": "Weekly district",
+                "District code": 99
+            },
+            {
+                "District": "Dien Bien district",
+                "District code": 100
+            },
+            {
+                "District": "Dien Bien Dong district",
+                "District code": 101
+            },
+            {
+                "District": "Muong Ang district",
+                "District code": 102
+            },
+            {
+                "District": "Nam Po district",
+                "District code": 103
+            }
+        ]
+    },
+    "Dak Lak province": {
+        "66": [
+            {
+                "District": "Buon Ma Thuot City",
+                "District code": 643
+            },
+            {
+                "District": "Buon Ho Town",
+                "District code": 644
+            },
+            {
+                "District": "Ea H'Leo district",
+                "District code": 645
+            },
+            {
+                "District": "Ea Sup district",
+                "District code": 646
+            },
+            {
+                "District": "Buon Don district",
+                "District code": 647
+            },
+            {
+                "District": "Cu M'gar district",
+                "District code": 648
+            },
+            {
+                "District": "Krong Buk district",
+                "District code": 649
+            },
+            {
+                "District": "Krong Nang district",
+                "District code": 650
+            },
+            {
+                "District": "Ea Kar district",
+                "District code": 651
+            },
+            {
+                "District": "M'Drak district",
+                "District code": 652
+            },
+            {
+                "District": "Krong Bong district",
+                "District code": 653
+            },
+            {
+                "District": "Krong Pac district",
+                "District code": 654
+            },
+            {
+                "District": "Krong A Na district",
+                "District code": 655
+            },
+            {
+                "District": "Lak district",
+                "District code": 656
+            },
+            {
+                "District": "Cu Kuin District",
+                "District code": 657
+            }
+        ]
+    },
+    "Dak Nong province": {
+        "67": [
+            {
+                "District": "Gia Nghia City",
+                "District code": 660
+            },
+            {
+                "District": "Dak Glong district",
+                "District code": 661
+            },
+            {
+                "District": "Cu Jut district",
+                "District code": 662
+            },
+            {
+                "District": "Dak Mil district",
+                "District code": 663
+            },
+            {
+                "District": "Krong No district",
+                "District code": 664
+            },
+            {
+                "District": "Dak Song district",
+                "District code": 665
+            },
+            {
+                "District": "Dak R'lap district",
+                "District code": 666
+            },
+            {
+                "District": "Tuy Duc district",
+                "District code": 667
+            }
+        ]
+    },
+    "Dong Nai province": {
+        "75": [
+            {
+                "District": "Bien Hoa City",
+                "District code": 731
+            },
+            {
+                "District": "Long Khanh City",
+                "District code": 732
+            },
+            {
+                "District": "Tan Phu district",
+                "District code": 734
+            },
+            {
+                "District": "Vinh Cuu district",
+                "District code": 735
+            },
+            {
+                "District": "Dinh Quan district",
+                "District code": 736
+            },
+            {
+                "District": "Trang Bom district",
+                "District code": 737
+            },
+            {
+                "District": "Thong Nhat district",
+                "District code": 738
+            },
+            {
+                "District": "Cam My district",
+                "District code": 739
+            },
+            {
+                "District": "Long Thanh district",
+                "District code": 740
+            },
+            {
+                "District": "Xuan Loc district",
+                "District code": 741
+            },
+            {
+                "District": "Nhon Trach district",
+                "District code": 742
+            }
+        ]
+    },
+    "Dong Thap province": {
+        "87": [
+            {
+                "District": "Cao Lanh City",
+                "District code": 866
+            },
+            {
+                "District": "Sa Dec city",
+                "District code": 867
+            },
+            {
+                "District": "Hong Ngu City",
+                "District code": 868
+            },
+            {
+                "District": "Tan Hong district",
+                "District code": 869
+            },
+            {
+                "District": "Hong Ngu district",
+                "District code": 870
+            },
+            {
+                "District": "Tam Nong district",
+                "District code": 871
+            },
+            {
+                "District": "Thap Muoi district",
+                "District code": 872
+            },
+            {
+                "District": "Cao Lanh district",
+                "District code": 873
+            },
+            {
+                "District": "Thanh Binh district",
+                "District code": 874
+            },
+            {
+                "District": "Lap Vo district",
+                "District code": 875
+            },
+            {
+                "District": "Lai Vung district",
+                "District code": 876
+            },
+            {
+                "District": "Chau Thanh district",
+                "District code": 877
+            }
+        ]
+    }
+}

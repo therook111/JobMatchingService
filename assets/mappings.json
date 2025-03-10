@@ -1,0 +1,101 @@
+[
+    {
+        "mappings": {
+            "properties": {
+                "JOB_ID": {"type": "keyword"},
+                "location_primary": {"type": "text"},
+                "location_secondary": {"type": "text"},
+                "date_opened": {"type": "date", "format": "yyyy-MM-dd'T'HH:mm:ss'Z'"},
+                "deadline": {"type": "date", "format": "yyyy-MM-dd'T'HH:mm:ss'Z'"},
+                "title": {"type": "text"},
+                "description": {"type": "text"},
+                "companyID": {"type": "text"},
+                "job_information": {
+                    "properties": {
+                        "experience_embedding": {"type": "dense_vector", "dims": 768, "index": true, "similarity": "cosine"},
+                        "soft_skill_embedding": {"type": "dense_vector", "dims": 768, "index": true, "similarity": "cosine"},
+                        "technical_skill_embedding": {"type": "dense_vector", "dims": 768, "index": true, "similarity": "cosine"},
+                        "degree_embedding": {"type": "dense_vector", "dims": 768, "index": true, "similarity": "cosine"}
+                    }
+                },
+                "workingTime": {"type": "text"},
+                "salary_min": {"type": "integer"},
+                "salary_max": {"type": "integer"},
+                "sectorID": {"type": "integer"},
+                "additional_notes": {"type": "text"},
+                "date_processed": {"type": "date", "format": "yyyy-MM-dd'T'HH:mm:ss'Z'"},
+                "keywords": {"type": "text"}
+            }
+        }
+    },
+    {
+        "mappings": {
+            "properties": {
+                "joblink_id": {"type": "keyword"},
+                "JOB_ID": {"type": "keyword"},
+                "link": {"type": "text"},
+                "date_processed": {"type": "date", "format": "yyyy-MM-dd'T'HH:mm:ss'Z'"}
+            }
+        }
+    },
+    {
+        "mappings": {
+        "properties": {
+            "provinceID": {"type": "keyword"},
+            "provinceName": {"type": "text"},
+            "districtID": {"type": "keyword"},
+            "districtName": {"type": "text"}
+        }
+    }
+    },
+    {
+        "mappings": {
+        "properties": {
+            "sectorID": {"type": "keyword"},
+            "name": {"type": "text"},
+            "weights": {
+                "properties": {
+                    "experienceWeight": {"type": "float"},
+                    "degreeWeight": {"type": "float"},
+                    "softWeight": {"type": "float"},
+                    "technicalWeight": {"type": "float"}
+                }
+            }
+        }
+    }
+    },
+    {
+        "mappings": {
+            "properties": {
+                "username": {
+                    "type": "keyword"  
+                },
+                "password": {
+                    "type": "keyword"  
+                },
+                "user_id": {
+                    "type": "keyword"
+                },
+                "role": {
+                    "type": "keyword"
+                }
+            }
+        }
+    },
+    {
+        "mappings": {
+        "properties": {
+            "user_id": {"type": "keyword"},
+            "dateUploaded": {"type": "date", "format": "yyyy-MM-dd'T'HH:mm:ss'Z'"},
+            "CV_information": {
+                "properties": {
+                        "experience_embedding": {"type": "dense_vector", "dims": 768},
+                        "soft_skill_embedding": {"type": "dense_vector", "dims": 768},
+                        "technical_skill_embedding": {"type": "dense_vector", "dims": 768},
+                        "degree_embedding": {"type": "dense_vector", "dims": 768}
+                }
+            }
+        }
+    }
+    }
+]
