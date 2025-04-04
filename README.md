@@ -59,12 +59,14 @@ You can see the installation here:
     └── README.md
    ```
 6. **Activate Python's FastAPI and Laravel**
+   - Before running, please make sure to have a Google Gemini API key. Go to `python_api/sub.env` and fill in the missing variable, which is the API key and Elasticsearch's password.
    - Go to `python_api/backend/app.py` and press run
    - Run this in your project directory's terminal (bash or PowerShell)
      ```
      cd laravel_front
      php artisan serve
      ```
-7. **Access http://127.0.0.1:8000 and see the result.**
+     
+8. **Access http://127.0.0.1:8000 and see the result.**
    
 
