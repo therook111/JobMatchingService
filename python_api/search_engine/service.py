@@ -4,7 +4,7 @@ from utils.cache import CVCache
 
 
 from elasticsearch import Elasticsearch
-from elasticsearch_dsl import Search
+from elasticsearch_dsl import Search, Q
 from typing import List
 from utils.logging import database_logger, system_logger
 from search_engine.search import full_pipeline_search
@@ -61,7 +61,7 @@ class PersonalizedEngine:
             system_logger.error(f"Error occurred while recommending jobs: {e}", exc_info=True, extra=extra_info)
             return
     
-    def GetFilteredJobs(self, cached_document, query, push=False, store=False):
+    def GetFilteredJobs(self, cached_document, query: Q, push=False, store=False):
         extra_info = {'service': 'Elasticsearch', 'request_id': 'filter_jobs'}
         try:
             df = full_pipeline_search(self.__es, cached_document, query=query, index='jobs')

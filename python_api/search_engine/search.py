@@ -12,37 +12,47 @@ def create_tmp(es):
         es.indices.create(index='tempo', body={
             "mappings": {
                 "properties": {
-                    "JOB_ID": {"type": "keyword"},
-                    "userID": {"type": "keyword"},
-                    "score": {"type": "float"},
-                    "location_primary": {"type": "text"},
-                    "location_secondary": {"type": "text"},
-                    "salary_min": {"type": "integer"},
-                    "salary_max": {"type": "integer"},
-                    "deadline": {"type": "date", "format": "yyyy-MM-dd'T'HH:mm:ss'Z'"},
-                }
+                    "cv_id": {"type": "keyword"},
+                    "job_info": {
+                        "properties": {
+                            "JOB_ID": {"type": "keyword"},
+                            "userID": {"type": "keyword"},
+                            "location_primary": {"type": "text"},
+                            "location_secondary": {"type": "text"},
+                            "salary_min": {"type": "integer"},
+                            "salary_max": {"type": "integer"},
+                            "deadline": {"type": "date", "format": "yyyy-MM-dd'T'HH:mm:ss'Z'"},
+                        }
+                    },
+                    "score": {"type": "float"}
             }
-        })
+        }
+    })
     except:
+        # Ignore if index already exists
         pass
-def delete_tmp(es):
+def delete_tmp(es, cv_id):
     try:
         response = es.delete_by_query(
-        index="tempo",
-        body={"query": {"match_all": {}}}
-) 
-        print("Deleted %d documents" % response['deleted'])
-    except:
-        pass
+            index="tempo",
+            body={
+                "query": {
+                    "term": {
+                        "cv_id": cv_id  # Exact match
+                    }
+                }
+            }
+        )
+        print("Deleted %d documents for cv_id=%s" % (response['deleted'], cv_id))
+    except Exception as e:
+        print(f"Error deleting documents for cv_id={cv_id}: {e}")
+
 def calculate_and_insert_similarities(es, user_document, top_k = 50, temp_index='tempo', index='jobs'):
     documents = []
 
     request_id = user_document[1]
 
     user_document = user_document[0]
-
-    if es.count(index=temp_index)['count'] > 0:
-        delete_tmp(es)
 
     # Get all weights of sectors
     sector_weights = get_sector_weights(es)
@@ -69,8 +79,7 @@ def calculate_and_insert_similarities(es, user_document, top_k = 50, temp_index=
         "size": top_k
     }
 
-
-    result = es.search(index='jobs', body=body)
+    result = es.search(index=index, body=body)
 
     for hit in result['hits']['hits']:
         doc = hit['_source']
@@ -99,38 +108,45 @@ def calculate_and_insert_similarities(es, user_document, top_k = 50, temp_index=
         # Final steps
         score = weights['experienceWeight'] * experience + weights['softWeight'] * soft_skill + weights['technicalWeight'] * technical_skill + weights['degreeWeight'] * degree
 
-        document = { 
-            'JOB_ID': doc['JOB_ID'], 
-            'userID': user_document['userID'], 
-            'score': score,
-            'location_primary': doc['location_primary'],
-            'location_secondary': doc['location_secondary'],
-            'salary_min': doc['salary_min'],
-            'salary_max': doc['salary_max'],
-            'deadline': doc['deadline']
+        document = {
+            'cv_id': request_id,
+            'job_info': {
+                'JOB_ID': doc['JOB_ID'], 
+                'userID': user_document['userID'], 
+                'location_primary': doc['location_primary'],
+                'location_secondary': doc['location_secondary'],
+                'salary_min': doc['salary_min'],
+                'salary_max': doc['salary_max'],
+                'deadline': doc['deadline']
+            },
+            'score': score
         }
         documents.append(document)
     
     bulk_insert_documents(es, documents, temp_index, batch_size=1024, request_id=request_id)
 
-def retrieve_top_results(es, query = None, temp_index='tempo', top_k=50, index='jobs'):
+def retrieve_top_results(es, request_id, query: Q = None, temp_index='tempo', top_k=50, index='jobs', link_index='job_link'):
 
     if not query:
-        top_entries = Search(using=es, index=temp_index).sort('-score').extra(size=top_k).execute()
+        query = Q('term', cv_id=request_id)
     else:
-        top_entries = Search(using=es, index=temp_index).query(query).sort('-score').extra(size=top_k).execute()
+        query = query & Q('match', cv_id=request_id)
+
+    top_entries = Search(using=es, index=temp_index).query(query).sort('-score').extra(size=top_k).execute()
 
     top_results = []
 
     for hit in top_entries:
         hit = hit.to_dict()
         
-        job_id = hit['JOB_ID']
-        score = hit['score']
-        user_id = hit['userID']
+        job_info = hit['job_info']
+        job_id = job_info['JOB_ID']
 
-        s = Search(using=es, index="jobs").query("match", JOB_ID=job_id).execute()
-        link_s = Search(using=es, index="job_link").query("match", JOB_ID=job_id).execute()
+        score = hit['score']
+        user_id = job_info['userID']
+
+        s = Search(using=es, index=index).query("match", JOB_ID=job_id).execute()
+        link_s = Search(using=es, index=link_index).query("match", JOB_ID=job_id).execute()
 
         for hit in s:
             result = hit.to_dict()
@@ -169,12 +185,15 @@ def retrieve_top_results(es, query = None, temp_index='tempo', top_k=50, index='
 
 def search(es, user_document, query=None, temp_index='tempo', index='jobs'):
 
-    create_tmp(es)
+    create_tmp(es) 
+    # Most likely gonna be skipped ngl, maybe I should remove this step, and just create the index during setup
+    request_id = user_document[1]
+
     calculate_and_insert_similarities(es, user_document, temp_index=temp_index, index=index)
     time.sleep(1.5)
-    result = retrieve_top_results(es, query, temp_index=temp_index, index=index)
+    result = retrieve_top_results(es, request_id=request_id, query=query, temp_index=temp_index, index=index)
     
-    delete_tmp(es)
+    delete_tmp(es, request_id)
     return result
         
 def full_pipeline_search(es, user_document, query=None, temp_index='tempo', index='jobs'):

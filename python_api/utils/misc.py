@@ -340,5 +340,5 @@ def parse_API_response_for_CV(response):
         
     except (json.JSONDecodeError, AttributeError, IndexError) as e:
         print(f"Error parsing response: {e}")
-        return None\
+        return None
         
