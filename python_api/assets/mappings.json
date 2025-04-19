@@ -97,5 +97,24 @@
             }
         }
     }
+    },
+    {   
+        "mappings": {
+        "properties": {
+            "cv_id": {"type": "keyword"},
+            "job_info": {
+                "properties": {
+                    "JOB_ID": {"type": "keyword"},
+                    "userID": {"type": "keyword"},
+                    "location_primary": {"type": "text"},
+                    "location_secondary": {"type": "text"},
+                    "salary_min": {"type": "integer"},
+                    "salary_max": {"type": "integer"},
+                    "deadline": {"type": "date", "format": "yyyy-MM-dd'T'HH:mm:ss'Z'"}
+                }
+            },
+            "score": {"type": "float"}
+    }
+    }
     }
 ]

@@ -7,30 +7,6 @@ from search_engine.database import get_sector_weights
 import pandas as pd 
 import time
 
-def create_tmp(es):
-    try:
-        es.indices.create(index='tempo', body={
-            "mappings": {
-                "properties": {
-                    "cv_id": {"type": "keyword"},
-                    "job_info": {
-                        "properties": {
-                            "JOB_ID": {"type": "keyword"},
-                            "userID": {"type": "keyword"},
-                            "location_primary": {"type": "text"},
-                            "location_secondary": {"type": "text"},
-                            "salary_min": {"type": "integer"},
-                            "salary_max": {"type": "integer"},
-                            "deadline": {"type": "date", "format": "yyyy-MM-dd'T'HH:mm:ss'Z'"},
-                        }
-                    },
-                    "score": {"type": "float"}
-            }
-        }
-    })
-    except:
-        # Ignore if index already exists
-        pass
 def delete_tmp(es, cv_id):
     try:
         response = es.delete_by_query(
@@ -46,7 +22,6 @@ def delete_tmp(es, cv_id):
         print("Deleted %d documents for cv_id=%s" % (response['deleted'], cv_id))
     except Exception as e:
         print(f"Error deleting documents for cv_id={cv_id}: {e}")
-
 def calculate_and_insert_similarities(es, user_document, top_k = 50, temp_index='tempo', index='jobs'):
     documents = []
 
@@ -185,8 +160,6 @@ def retrieve_top_results(es, request_id, query: Q = None, temp_index='tempo', to
 
 def search(es, user_document, query=None, temp_index='tempo', index='jobs'):
 
-    create_tmp(es) 
-    # Most likely gonna be skipped ngl, maybe I should remove this step, and just create the index during setup
     request_id = user_document[1]
 
     calculate_and_insert_similarities(es, user_document, temp_index=temp_index, index=index)
@@ -213,4 +186,3 @@ def full_pipeline_search(es, user_document, query=None, temp_index='tempo', inde
     else:
         return df.head(20)
     # raise Exception("This is a bug for testing")
-        

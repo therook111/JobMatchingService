@@ -9,3 +9,5 @@ class UserFilterQuery(BaseModel):
     province: str | None = None
     salary_min: int | None = None
     salary_max: int | None = None
+
+

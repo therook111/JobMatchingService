@@ -19,9 +19,12 @@ import shutil
 
 from utils.logging import database_logger
 from utils.text_reader import TextExtractor
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parents[1]
 
 
-with open('python_api/assets/sector_lookup.json', 'r') as f:
+with open(f'{BASE_DIR}/assets/sector_lookup.json', 'r') as f:
     lookup_table_sectors = json.load(f)
 
 def process_cv(CV: UploadFile = File(...), destination='temp.pdf'):
@@ -197,7 +200,7 @@ def parse_query(query_params: dict):
     if query_params.get('province'):
         province_id = query_params['province']
         
-        with open('python_api/assets/province_lookup.json') as f:
+        with open(f'{BASE_DIR}/assets/province_lookup.json') as f:
             table = json.load(f)
         try:
             province = table[province_id]
@@ -208,7 +211,7 @@ def parse_query(query_params: dict):
     if query_params.get('district'):
         district_id = query_params['district']
 
-        with open('python_api/assets/district_lookup.json') as f:
+        with open(f'{BASE_DIR}/assets/district_lookup.json') as f:
             table = json.load(f)
         try:
             district = table[district_id]
@@ -340,5 +343,5 @@ def parse_API_response_for_CV(response):
         
     except (json.JSONDecodeError, AttributeError, IndexError) as e:
         print(f"Error parsing response: {e}")
-        return None
+        return None\
         

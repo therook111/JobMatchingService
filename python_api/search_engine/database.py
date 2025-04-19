@@ -13,15 +13,18 @@ from utils.logging import system_logger, database_logger
 from utils.misc import (result_to_html, handle_null_embedding, validate_start_end_date, 
                         validate_salary, lookup_table_sectors, clean_nan_values, bulk_insert_documents)
 
-with open('python_api/assets/mappings.json', 'r') as f:
+from utils.misc import BASE_DIR
+
+with open(f'{BASE_DIR}/assets/mappings.json', 'r') as f:
     mappings = json.load(f)
+
 name_to_mappings = {
                 "jobs": mappings[0],
                 "job_link": mappings[1],
-                "company": mappings[2],
-                "location": mappings[3],
-                "sector": mappings[4],
-                "user": mappings[5]
+                "location": mappings[2],
+                "sector": mappings[3],
+                "user": mappings[5],
+                "tempo": mappings[6]
             }
 class FeatureExtractor:
     '''
@@ -202,7 +205,7 @@ def _prepare_locations():
 
     documents = []
 
-    with open('python_api/assets/provinces_eng.json', encoding='utf-8') as f:
+    with open(f'{BASE_DIR}/assets/provinces_eng.json', encoding='utf-8') as f:
         location = json.load(f)
 
     location['Hanoi'] = location['Hanoi City']
@@ -233,7 +236,7 @@ def _prepare_locations():
 def _prepare_sectors():
     id = 0
     documents = []
-    with open('python_api/assets/sectors.json') as f:
+    with open(f'{BASE_DIR}/assets/sectors.json') as f:
         sectors = json.load(f)['sectors']
 
     for sector in sectors:
